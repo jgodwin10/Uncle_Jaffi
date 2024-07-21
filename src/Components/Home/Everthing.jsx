@@ -73,7 +73,7 @@ const Everthing = () => {
           className="md:h-[380px] h-[208px] cursor-pointer relative before:contents-[''] before:absolute before:top-0 before:w-full before:md:h-[380px] before:h-[208px] before:bg-[#0000004D]  rounded-[14.96px] overflow-hidden"
         >
           <img
-            className="md:h-[380px] h-[208px] hover:scale-[1.1] duration-500 cursor-pointer overflow-hidden w-full rounded-[14.96px] object-cover"
+            className="md:h-[380px] flip  object-[center_top_5rem] h-[208px] hover:scale-[1.1] duration-500 cursor-pointer overflow-hidden w-full rounded-[14.96px] object-cover"
             src={Img2}
             alt=""
           />

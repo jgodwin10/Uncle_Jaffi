@@ -13,11 +13,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="">
-          <img
-            className="size-[150px] -ml-8 md:ml-0 md:mx-auto"
-            src={Logo}
-            alt=""
-          />
+          <img className="size-[150px] -ml-8  md:mx-auto" src={Logo} alt="" />
           <p className="text-white md:text-base text-[14px]  font-light md:text-center">
             At Uncle Jaffi, we offer a delightful experience with our diverse
             menu and selections of exquisite dishes. So, whether you're alone or
