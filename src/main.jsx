@@ -11,6 +11,8 @@ import Menu from "./Pages/Menu.jsx";
 import Activities from "./Pages/Activities.jsx";
 import Stories from "./Pages/Stories.jsx";
 import Ambassador from "./Pages/Ambassador.jsx";
+import Franchise from "./Pages/Franchise.jsx";
+import Reservation from "./Pages/Reservation.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/ambassador",
         element: <Ambassador />,
+      },
+      {
+        path: "/franchise",
+        element: <Franchise />,
+      },
+      {
+        path: "/reservation",
+        element: <Reservation />,
       },
     ],
   },

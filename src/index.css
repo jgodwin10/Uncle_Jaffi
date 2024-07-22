@@ -48,6 +48,11 @@ body {
   font-style: normal;
 }
 
+.italy {
+  font-style: italic;
+}
+
+
 /** NAVBAR **/
 
 .navbar {
@@ -100,4 +105,12 @@ button:hover {
 .mage {
   background-position: 30% 15%;
   background-size: 85%;
+}
+
+.botto {
+  background-position: 30% 70%;
+}
+
+.reserve {
+  background-position: 30% 65%;
 }

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Logo from "../Images/Logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = ({ clas }) => {
+  const navigate = useNavigate();
   const [nav, setNav] = useState(false);
 
   window.addEventListener("scroll", () => {
@@ -27,11 +28,14 @@ const NavBar = ({ clas }) => {
           <Link to={"/menu"}>Menu</Link>
           <Link to={"/activities"}>Activities</Link>
           <Link to={"/stories"}>Stories</Link>
-          <Link>Franchise</Link>
+          <Link to={"/franchise"}>Franchise</Link>
           <Link to={"/ambassador"}>Ambassador</Link>
           <Link>Contact</Link>
         </div>
-        <button className="py-[12px] hidden md:block px-[16px] bg-[#FAB939] rounded-[99px] w-[150px] xl:w-[175px]">
+        <button
+          onClick={() => navigate("/reservation")}
+          className="py-[12px] hidden md:block px-[16px] bg-[#FAB939] rounded-[99px] w-[150px] xl:w-[175px]"
+        >
           RESERVATION
         </button>
       </div>
