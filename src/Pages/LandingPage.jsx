@@ -39,7 +39,7 @@ const LandingPage = () => {
           <div className="flex justify-between items-center">
             <div className="flex  justify-center flex-col items-center">
               <img src={Locate} alt="" />
-              <p className="text-[#FAB939] text-[24px] md:text-[28px]">
+              <p className="text-[#FAB939] text-[22px] md:text-[28px]">
                 Port-Harcourt
               </p>
             </div>
