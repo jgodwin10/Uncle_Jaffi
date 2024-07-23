@@ -64,6 +64,10 @@ body {
   transition-duration: 0.5s;
 }
 
+.active {
+  color: #fab939;
+}
+
 .nav *:hover {
   color: #fab939;
 }

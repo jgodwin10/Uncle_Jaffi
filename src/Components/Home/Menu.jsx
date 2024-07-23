@@ -24,7 +24,7 @@ const Menu = () => {
             src={Img1}
             alt=""
           />
-          <p className="md:text-[20px] text-[14px]">Uncle Jaffi’s Picante</p>
+          <p className="md:text-[20px] text-[14px]">Chicken Pesto Pasta</p>
         </div>
         <div className="flex flex-col items-center gap-[24px] ">
           <img
@@ -32,7 +32,9 @@ const Menu = () => {
             src={Img2}
             alt=""
           />
-          <p className="md:text-[20px] text-[14px]">Uncle Jaffi’s Picante</p>
+          <p className="md:text-[20px] text-[14px]">
+            Uncle’s Whole Flaming Chicken
+          </p>
         </div>
       </div>
       <div className="w-full flex justify-center">
