@@ -14,6 +14,7 @@ import Ambassador from "./Pages/Ambassador.jsx";
 import Franchise from "./Pages/Franchise.jsx";
 import Reservation from "./Pages/Reservation.jsx";
 import Contacts from "./Pages/Contacts.jsx";
+import LandingPage from "./Pages/LandingPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
         element: <Contacts />,
       },
     ],
+  },
+  {
+    path: "/landing",
+    element: <LandingPage />,
   },
 ]);
 
