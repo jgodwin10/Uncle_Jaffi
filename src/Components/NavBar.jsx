@@ -30,7 +30,7 @@ const NavBar = ({ clas }) => {
           <Link to={"/stories"}>Stories</Link>
           <Link to={"/franchise"}>Franchise</Link>
           <Link to={"/ambassador"}>Ambassador</Link>
-          <Link>Contact</Link>
+          <Link to={"/contact"}>Contact</Link>
         </div>
         <button
           onClick={() => navigate("/reservation")}

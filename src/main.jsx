@@ -13,6 +13,7 @@ import Stories from "./Pages/Stories.jsx";
 import Ambassador from "./Pages/Ambassador.jsx";
 import Franchise from "./Pages/Franchise.jsx";
 import Reservation from "./Pages/Reservation.jsx";
+import Contacts from "./Pages/Contacts.jsx";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/reservation",
         element: <Reservation />,
+      },
+      {
+        path: "/contact",
+        element: <Contacts />,
       },
     ],
   },
