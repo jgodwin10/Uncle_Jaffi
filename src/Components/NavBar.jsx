@@ -27,7 +27,7 @@ const NavBar = ({ clas }) => {
         <div className="max-w-[1352px] h-[100px] md:h-[128px] flex items-center justify-between mx-auto">
           <img className="w-[120.81px] h-[120px]" src={Logo} alt="" />
           <div className="items-center hidden lg:flex xl:text-base text-[14px] uppercase nav gap-4 xl:gap-8 text-[#D2D5E0] josefin">
-            <NavLink to={"/"}>Home</NavLink>
+            <NavLink to={"/home"}>Home</NavLink>
             <NavLink to={"/about"}>About</NavLink>
             <NavLink to={"/menu"}>Menu</NavLink>
             <NavLink to={"/activities"}>Activities</NavLink>
@@ -61,7 +61,7 @@ const NavBar = ({ clas }) => {
           src={Plus}
           alt=""
         />
-        <NavLink to={"/"}>Home</NavLink>
+        <NavLink to={"/home"}>Home</NavLink>
         <NavLink to={"/about"}>About</NavLink>
         <NavLink to={"/menu"}>Menu</NavLink>
         <NavLink to={"/activities"}>Activities</NavLink>

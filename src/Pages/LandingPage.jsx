@@ -3,8 +3,11 @@ import Img from "../Images/landing.png";
 import Logo from "../Images/Logo.png";
 import Locate from "../Images/location.png";
 import Line from "../Images/line.png";
+import { useNavigate } from "react-router-dom";
 
 const LandingPage = () => {
+  const navigate = useNavigate();
+
   return (
     <div
       style={{ "--image-url": `url(${Img})` }}
@@ -24,14 +27,21 @@ const LandingPage = () => {
           <div className="flex justify-evenly items-center">
             <div className="flex  justify-center flex-col items-center">
               <img src={Locate} alt="" />
-              <p className="text-[#FAB939] text-[24px] md:text-[28px]">Warri</p>
+              <p
+                onClick={() => navigate("/home")}
+                className="text-[#FAB939] cursor-pointer text-[24px] md:text-[28px]"
+              >
+                Warri
+              </p>
             </div>
             <img src={Line} alt="" />
           </div>
           <div className="flex justify-between items-center">
             <div className="flex  justify-center flex-col items-center">
               <img src={Locate} alt="" />
-              <p className="text-[#FAB939] text-[24px] md:text-[28px]">Port-Harcourt</p>
+              <p className="text-[#FAB939] text-[24px] md:text-[28px]">
+                Port-Harcourt
+              </p>
             </div>
             <img className="hidden md:block" src={Line} alt="" />
           </div>
