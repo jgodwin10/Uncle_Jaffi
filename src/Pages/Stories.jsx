@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Img from "../Images/Stories.jpeg";
 import NavBar from "../Components/NavBar";
 import Pictures from "../Components/Stories/Pictures";
+import Videos from "../Components/Stories/Videos";
 
 const Stories = () => {
   const [type, setType] = useState("pictures");
@@ -11,7 +12,7 @@ const Stories = () => {
       <NavBar />
       <div
         style={{ "--image-url": `url(${Img})` }}
-        className=" h-[565px] before:contents-[''] bg-auto bg-center mage before:absolute bg-[image:var(--image-url)] before:top-0 before:w-full before:h-[565px] before:bg-[#00000080] overflow-hidden relatve w-full"
+        className=" h-[565px] before:contents-[''] bg-cover bg-center mage before:absolute bg-[image:var(--image-url)] before:top-0 before:w-full before:h-[565px] before:bg-[#00000080] overflow-hidden relatve w-full"
       >
         <div className="absolute space-y-[24px] flex justify-center items-center flex-col h-[565px]  duration-500 md:space-y-[35px] text-center w-full">
           <h3 className="text-[#FAB939] dancing text-[28px] md:text-[48px]">
@@ -42,15 +43,15 @@ const Stories = () => {
             Videos
           </button>
         </div>
-        <h2 className="text-[#3F4045] text-[36px] text-center pt-10">
+        <h2 className="text-[#3F4045] text-[28px] md:text-[36px] text-center pt-10">
           Food, Drinks and Pure Vibes
         </h2>
 
         {/* PICTURES */}
         {type == "pictures" && <Pictures />}
 
-              
-
+        {/* VIDEOS    */}
+        {type == "videos" && <Videos />}
       </div>
     </>
   );

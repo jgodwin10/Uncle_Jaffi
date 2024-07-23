@@ -5,6 +5,9 @@ import Img2 from "../../Images/story1.jpeg";
 import Img3 from "../../Images/story2.jpeg";
 import Img4 from "../../Images/story3.jpeg";
 import Img5 from "../../Images/story4.png";
+import Img6 from "../../Images/story5.png";
+import Img7 from "../../Images/Menu3.jpeg";
+import Img8 from "../../Images/Menu2.jpeg";
 
 const Pictures = () => {
   return (
@@ -37,7 +40,7 @@ const Pictures = () => {
         />
         <img
           className="md:h-[464px] h-[165px] w-full col-start-2  object-cover rounded-[5px] md:rounded-[20px]"
-          src={Img5}
+          src={Img7}
           alt=""
         />
       </div>
@@ -49,12 +52,12 @@ const Pictures = () => {
         />
         <img
           className="md:h-[1184px] h-[324px] col-start-2 col-end-4  row-start-1 row-end-4 w-[700px] object-cover rounded-[5px] md:rounded-[20px]"
-          src={Img5}
+          src={Img8}
           alt=""
         />
         <img
           className="md:h-[584px] h-[155px] w-[700px] object-cover rounded-[5px] md:rounded-[20px]"
-          src={Img5}
+          src={Img6}
           alt=""
         />
       </div>

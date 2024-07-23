@@ -109,10 +109,7 @@ button:hover {
   background-position: 30% 30%;
 }
 
-.mage {
-  background-position: 30% 15%;
-  background-size: 85%;
-}
+
 
 .botto {
   background-position: 30% 70%;
@@ -120,4 +117,11 @@ button:hover {
 
 .reserve {
   background-position: 30% 65%;
+}
+
+@media (min-width: 788px) {
+  .mage {
+  background-position: 30% 15%;
+  background-size: 85%;
+}
 }
