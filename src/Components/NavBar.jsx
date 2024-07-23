@@ -53,7 +53,7 @@ const NavBar = ({ clas }) => {
       <div
         className={`fixed ${
           NavOpen ? "translate-x-0" : "translate-x-[120vw]"
-        } duration-500 w-full text-[#D2D5E0]  gap-[40px] nav h-screen z-[9999999999] flex flex-col pt-10 items-center top-0 left-0 bg-black`}
+        } duration-500 w-full text-[#D2D5E0]   gap-[40px] nav h-screen z-[9999999999] flex flex-col pt-20 items-center top-0 left-0 bg-black`}
       >
         <img
           onClick={() => setNavOpen(false)}

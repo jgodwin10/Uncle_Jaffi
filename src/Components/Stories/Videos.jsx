@@ -17,7 +17,7 @@ const Videos = () => {
           alt=""
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-          <img src={Icon} alt="" />
+          <img className='lg:w-full w-[22px]' src={Icon} alt="" />
         </div>
       </div>
       <div className='max-w-[663px] h-[244px] lg:h-[829px] before:contents-[""] before:w-full before:absolute before:h-full before:top-0 before:left-0 before:bg-[#00000066] relative rounded-[5px] lg:before:rounded-[20px]'>
@@ -27,7 +27,7 @@ const Videos = () => {
           alt=""
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-          <img src={Icon} alt="" />
+          <img className='lg:w-full w-[22px]' src={Icon} alt="" />
         </div>
       </div>
       <div className='max-w-[663px] h-[328px] lg:h-[1244px] before:contents-[""] before:w-full before:absolute before:h-full before:top-0 before:left-0 before:bg-[#00000066] relative rounded-[5px] lg:before:rounded-[20px]'>
@@ -37,7 +37,7 @@ const Videos = () => {
           alt=""
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-          <img src={Icon} alt="" />
+          <img className='lg:w-full w-[22px]' src={Icon} alt="" />
         </div>
       </div>
       <div className='max-w-[663px] -mt-[30px] lg:-mt-[70px] h-[342px] lg:h-[1280px] before:contents-[""] before:w-full before:absolute before:h-full before:top-0 before:left-0 before:bg-[#00000066] relative rounded-[5px] lg:before:rounded-[20px]'>
@@ -47,7 +47,7 @@ const Videos = () => {
           alt=""
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-          <img src={Icon} alt="" />
+          <img className='lg:w-full w-[22px]' src={Icon} alt="" />
         </div>
       </div>
       <div className='max-w-[663px] h-[242px] lg:h-[906px] before:contents-[""] before:w-full before:absolute before:h-full before:top-0 before:left-0 before:bg-[#00000066] relative rounded-[5px] lg:before:rounded-[20px]'>
@@ -57,7 +57,7 @@ const Videos = () => {
           alt=""
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-          <img src={Icon} alt="" />
+          <img className='lg:w-full w-[22px]' src={Icon} alt="" />
         </div>
       </div>
       <div className='max-w-[663px] -mt-[15px] lg:-mt-[30px] h-[256px] lg:h-[939px] before:contents-[""] before:w-full before:absolute before:h-full before:top-0 before:left-0 before:bg-[#00000066] relative rounded-[5px] lg:before:rounded-[20px]'>
@@ -67,7 +67,7 @@ const Videos = () => {
           alt=""
         />
         <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-          <img src={Icon} alt="" />
+          <img className='lg:w-full w-[22px]' src={Icon} alt="" />
         </div>
       </div>
     </div>
