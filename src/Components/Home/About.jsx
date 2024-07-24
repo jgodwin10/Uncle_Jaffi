@@ -3,7 +3,7 @@ import Img from "../../Images/About.jpeg";
 
 const About = () => {
   return (
-    <div className="max-w-[1352px] space-y-[24px] py-20 gap-6 xl:gap-[100px] grid md:grid-cols-2 mx-auto px-8">
+    <div className="max-w-[1352px] space-y-[24px] py-20 gap-6 xl:gap-[100px] grid md:grid-cols-2 mx-auto px-4">
       <img
         className="md:*:w-[664px] h-[561px] object-right-bottom cursor-pointer rounded-[20px] object-cover"
         src={Img}

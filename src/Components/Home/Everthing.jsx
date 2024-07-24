@@ -8,7 +8,7 @@ const Everthing = () => {
   const [isShown, setIsShown] = useState("");
 
   return (
-    <div className="max-w-[1352px] px-8 py-12 md:py-20  mx-auto">
+    <div className="max-w-[1352px] px-4 py-12 md:py-20  mx-auto">
       <h2 className="josefin text-center text-[24px] md:text-[36px] text-[#3F4045]">
         Everything We Are About
       </h2>
