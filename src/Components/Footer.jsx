@@ -4,7 +4,7 @@ import Logo from "../Images/Logos.png";
 const Footer = () => {
   return (
     <div className="bg-[#1E1E1E] px-6">
-      <div className="max-w-[1352px] text-white gap-[22px] grid md:grid-cols-2 lg:grid-cols-3 mx-auto pt-10 md:pt-20 pb-16">
+      <div className="max-w-[1352px] text-white gap-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mx-auto pt-10 md:pt-20 pb-16">
         <div className="space-y-[39px] md:pt-10">
           <h2 className="text-[22px]">Open Hours</h2>
           <div className="text-white font-light space-y-[12px]">
