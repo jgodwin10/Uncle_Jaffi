@@ -12,7 +12,7 @@ const App = () => {
     });
   }, [pathname]);
   return (
-    <div>
+    <div className="">
       <Outlet />
       {pathname.pathname == "/" ? "" : <Footer />}
     </div>
