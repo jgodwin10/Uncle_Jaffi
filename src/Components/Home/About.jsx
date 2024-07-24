@@ -3,14 +3,14 @@ import Img from "../../Images/About.jpeg";
 
 const About = () => {
   return (
-    <div className="max-w-[1352px] space-y-[24px] py-20 gap-6 xl:gap-[100px] grid md:grid-cols-2 mx-auto px-4">
+    <div className="max-w-[1272px] mx-auto space-y-[24px] py-20 gap-[20px] grid md:grid-cols-2 lg:-[120px]">
       <img
-        className="md:*:w-[664px] h-[561px] object-right-bottom cursor-pointer rounded-[20px] object-cover"
+        className="md:w-[624px] h-[561px] object-right-bottom cursor-pointer rounded-[20px] object-cover"
         src={Img}
         alt=""
       />
       <div className="flex items-center">
-        <div className="md:w-[615px] space-y-[26px] shadow py-[32px] px-[16px] xl:p-[40px] xl:h-[456px] bg-[#FAB939]">
+        <div className="md:w-[614px] space-y-[26px] shadow py-[32px] px-[16px] xl:p-[40px] xl:h-[456px] bg-[#FAB939]">
           <button className="text-[12px] h-[30px] py-[3px] rounded-[99px] bg-[#FCD07B] w-[70px]">
             Event
           </button>

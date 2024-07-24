@@ -13,7 +13,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: change 40s infinite ease-out;
+  animation: change 15s infinite linear;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   50% {
     background-image: url(Images/Hero1.jpeg);
   }
-  100% {
+  80% {
     background-image: url(Images/Hero2.png);
   }
 }

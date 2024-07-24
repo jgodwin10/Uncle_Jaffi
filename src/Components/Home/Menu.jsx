@@ -5,14 +5,14 @@ import Img2 from "../../Images/Menu2.png";
 
 const Menu = () => {
   return (
-    <div className="max-w-[1352px] px-4 py-8 mx-auto">
+    <div className="max-w-[1272px] px-4 py-8 mx-auto">
       <h2 className="josefin text-center text-[28px] md:text-[36px] text-[#3F4045]">
         Our Menu Specials
       </h2>
       <div className="grid md:py-[80px] py-10 gap-[36px] md:gap-[24px] md:grid-cols-3">
         <div className="flex flex-col items-center gap-[24px] ">
           <img
-            className="xl:size-[435px] lg:size-[340px] md:size-[240px] shadow size-[280px] rounded-full object-cover"
+            className="xl:size-[404px] lg:size-[340px] md:size-[240px] shadow size-[280px] rounded-full object-cover"
             src={Img}
             alt=""
           />
@@ -20,7 +20,7 @@ const Menu = () => {
         </div>
         <div className="flex flex-col items-center gap-[24px] ">
           <img
-            className="xl:size-[435px] lg:size-[340px] md:size-[240px] size-[280px] shadow rounded-full object-cover"
+            className="xl:size-[404px] lg:size-[340px] md:size-[240px] size-[280px] shadow rounded-full object-cover"
             src={Img1}
             alt=""
           />
@@ -28,7 +28,7 @@ const Menu = () => {
         </div>
         <div className="flex flex-col items-center gap-[24px] ">
           <img
-            className="xl:size-[435px] lg:size-[340px] md:size-[240px] shadow size-[280px] rounded-full object-cover"
+            className="xl:size-[404px] lg:size-[340px] md:size-[240px] shadow size-[280px] rounded-full object-cover"
             src={Img2}
             alt=""
           />

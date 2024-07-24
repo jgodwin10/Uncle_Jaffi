@@ -30,7 +30,7 @@ const NavBar = ({ clas }) => {
           nav ? "navbar fixed" : "absolute"
         } duration-300 ${clas} left-0 z-[9999999] pr-4  top-0`}
       >
-        <div className="max-w-[1352px] h-[100px] md:h-[128px] flex items-center justify-between mx-auto">
+        <div className="max-w-[1272px] h-[100px] md:h-[128px] flex items-center justify-between mx-auto">
           <img className="md:size-[180px] size-[150px]" src={Logo} alt="" />
           <div
             className={`items-center hidden lg:flex xl:text-base text-[14px] uppercase nav gap-4 xl:gap-8 text-[${color}] josefin`}
