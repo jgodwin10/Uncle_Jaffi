@@ -3,21 +3,21 @@ import Img from "../../Images/About.jpeg";
 
 const About = () => {
   return (
-    <div className="max-w-[1352px] space-y-[24px] py-20 xl:gap-[100px] grid md:grid-cols-2 mx-auto px-4">
+    <div className="max-w-[1352px] space-y-[24px] py-20 gap-6 xl:gap-[100px] grid md:grid-cols-2 mx-auto px-8">
       <img
         className="md:*:w-[664px] h-[561px] object-right-bottom cursor-pointer rounded-[20px] object-cover"
         src={Img}
         alt=""
       />
       <div className="flex items-center">
-        <div className="md:w-[615px] space-y-[26px] shadow py-[32px] px-[16px] md:p-[40px] md:h-[456px] bg-[#FAB939]">
+        <div className="md:w-[615px] space-y-[26px] shadow py-[32px] px-[16px] xl:p-[40px] xl:h-[456px] bg-[#FAB939]">
           <button className="text-[12px] h-[30px] py-[3px] rounded-[99px] bg-[#FCD07B] w-[70px]">
             Event
           </button>
-          <h2 className="md:text-[36px] text-[28px] text-[#3F4045]">
+          <h2 className="lg:text-[35px] text-[28px] text-[#3F4045]">
             Vibe With Oso, Every Thursday !
           </h2>
-          <p className="text-[#3F4045] md:text-base text-[14px] leading-[24px]">
+          <p className="text-[#3F4045] lg:text-base text-[14px] leading-[24px]">
             Join us for an unforgettable evening hosted by the best DJ in the
             city, spinning the hottest tracks and keeping the energy high all
             night long. This exclusive event promises fantastic music, vibrant

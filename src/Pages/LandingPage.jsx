@@ -14,9 +14,9 @@ const LandingPage = () => {
       className=" md:h-[982px] before:contents-[''] bg-cover botto bg-[image:var(--image-url)] before:absolute before:h-[852px] h-[852px] before:top-0 before:w-full md:before:h-[982px] before:bg-[#00000080] overflow-hidden relatve w-full"
     >
       <div className="absolute px-6 top-0 space-y-[64px] md:space-y-[128px] left-0 w-full md:h-[982px] h-[852px] flex flex-col items-center">
-        <img className="size-[130px]" src={Logo} alt="" />
+        <img className="size-[250px]" src={Logo} alt="" />
         <div className="text-center space-y-[16px]">
-          <h3 className="text-[#FAB939] dancing text-[28px] md:text-[50px]">
+          <h3 className="text-[#FAB939] dancing text-[28px] md:text-[36px]">
             Smoky Southern Flavours
           </h3>
           <p className="text-[#DDDFE7] md:text-[48px] text-[32px]">
@@ -26,10 +26,10 @@ const LandingPage = () => {
         <div className="md:w-[900px] grid grid-cols-2 gap-y-6 md:grid-cols-4 mx-auto px-6">
           <div className="flex justify-evenly items-center">
             <div className="flex  justify-center flex-col items-center">
-              <img src={Locate} alt="" />
+              <img className="size-[36px]" src={Locate} alt="" />
               <p
                 onClick={() => navigate("/home")}
-                className="text-[#FAB939] cursor-pointer text-[24px] md:text-[28px]"
+                className="text-[#FAB939] cursor-pointer text-[20px] md:text-[24px]"
               >
                 Warri
               </p>
@@ -38,8 +38,8 @@ const LandingPage = () => {
           </div>
           <div className="flex justify-between items-center">
             <div className="flex  justify-center flex-col items-center">
-              <img src={Locate} alt="" />
-              <p className="text-[#FAB939] text-[22px] md:text-[28px]">
+              <img className="size-[36px]" src={Locate} alt="" />
+              <p className="text-[#FAB939] text-[20px] md:text-[24px]">
                 Port-Harcourt
               </p>
             </div>
@@ -48,13 +48,13 @@ const LandingPage = () => {
           <div className="flex justify-evenly items-center">
             <div className="flex  justify-center flex-col items-center">
               {/* <img src={Locate} alt="" /> */}
-              <p className="text-[#9DA0AD] text-[24px] md:text-[28px]">Asaba</p>
+              <p className="text-[#9DA0AD] text-[20px] md:text-[24px]">Asaba</p>
             </div>
             <img src={Line} alt="" />
           </div>
           <div className="flex  justify-center flex-col items-center">
             {/* <img src={Locate} alt="" /> */}
-            <p className="text-[#9DA0AD] text-[24px] md:text-[28px]">Abuja</p>
+            <p className="text-[#9DA0AD] text-[20px] md:text-[24px]">Abuja</p>
           </div>
         </div>
       </div>

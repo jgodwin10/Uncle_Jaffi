@@ -7,6 +7,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 const NavBar = ({ clas }) => {
   const navigate = useNavigate();
   const [nav, setNav] = useState(false);
+  const [color, setColor] = useState("#D2D5E0");
   const [NavOpen, setNavOpen] = useState(false);
 
   window.addEventListener("scroll", () => {
@@ -15,6 +16,11 @@ const NavBar = ({ clas }) => {
     } else {
       setNav(false);
     }
+    if (scrollY > 550) {
+      setColor("#000");
+    } else {
+      setColor("#D2D5E0");
+    }
   });
 
   return (
@@ -22,11 +28,13 @@ const NavBar = ({ clas }) => {
       <div
         className={` w-full ${
           nav ? "navbar fixed" : "absolute"
-        } duration-300 ${clas} left-0 z-[9999999] pr-4  top-0`}
+        } duration-300 ${clas} left-0 z-[9999999] pr-6  top-0`}
       >
         <div className="max-w-[1352px] h-[100px] md:h-[128px] flex items-center justify-between mx-auto">
-          <img className="w-[120.81px] h-[120px]" src={Logo} alt="" />
-          <div className="items-center hidden lg:flex xl:text-base text-[14px] uppercase nav gap-4 xl:gap-8 text-[#D2D5E0] josefin">
+          <img className="md:size-[180px] size-[150px]" src={Logo} alt="" />
+          <div
+            className={`items-center hidden lg:flex xl:text-base text-[14px] uppercase nav gap-4 xl:gap-8 text-[${color}] josefin`}
+          >
             <NavLink to={"/home"}>Home</NavLink>
             <NavLink to={"/about"}>About</NavLink>
             <NavLink to={"/menu"}>Menu</NavLink>
