@@ -4,7 +4,7 @@ import Img1 from "../../Images/past.jpeg";
 
 const Past = () => {
   return (
-    <div className="max-w-[1352px] mx-auto py-10 md:py-20 px-6">
+    <div className="md:px-[70px] py-10 md:py-20 px-6">
       <div>
         <h2 className="md:text-[36px] text-[28px] text-[#3F4045] pb-4 md:pb-8">
           Past Activities

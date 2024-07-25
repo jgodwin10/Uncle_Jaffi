@@ -3,7 +3,7 @@ import Img from "../../Images/Upcoming.jpeg";
 
 const Upcoming = () => {
   return (
-    <div className="max-w-[1352px] mx-auto pt-10 md:py-20 md:text-center px-6">
+    <div className="md:px-[70px] pt-10 md:py-20 md:text-center px-6">
       <div>
         <h2 className="md:text-[36px] text-[28px] text-[#3F4045] pb-4 md:pb-8">
           Upcoming Activities

@@ -20,7 +20,7 @@ const Food = () => {
   ];
 
   return (
-    <div className="max-w-[1352px] space-y-[48px] mx-auto py-20 px-6  ">
+    <div className="md:px-[70px] space-y-[48px] py-20 px-6  ">
       <div className="flex items-center gap-[21px] flex-wrap">
         {tabs.map((item, index) => {
           return (

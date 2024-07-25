@@ -24,7 +24,7 @@ const Stories = () => {
         </div>
       </div>
 
-      <div className="py-20 max-w-[1352px] mx-auto px-6">
+      <div className="py-20 md:px-[70px] px-6">
         <div className="border flex justify-between items-center text-[#9DA0AD] border-[#D2D5E0] mx-auto w-[218px] p-2 rounded-[99px]">
           <button
             onClick={() => setType("pictures")}

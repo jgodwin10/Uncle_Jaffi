@@ -23,7 +23,7 @@ const Body = () => {
   ];
 
   return (
-    <div className="max-w-[1352px] py-16 mx-auto px-6">
+    <div className="md:px-[70px] py-16 px-6">
       <div className="max-w-[912px] text-center space-y-[42px] mx-auto">
         <h2 className="text-[#26262A] text-[28px] text-center md:text-[36px]">
           About The Brand

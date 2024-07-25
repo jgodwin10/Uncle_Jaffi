@@ -5,7 +5,7 @@ import Img2 from "../../Images/past.jpeg";
 
 const Body = () => {
   return (
-    <div className="max-w-[1352px] mx-auto py-20 px-6">
+    <div className="md:px-[70px] py-20 px-6">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[24px]">
         <img
           className="md:h-[384px] h-[256px] shadow rounded-[20px] object-cover w-full"
