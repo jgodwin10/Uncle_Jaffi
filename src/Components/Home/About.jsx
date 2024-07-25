@@ -14,7 +14,7 @@ const About = () => {
           <button className="text-[12px] h-[30px] py-[3px] rounded-[99px] bg-[#FCD07B] w-[70px]">
             Event
           </button>
-          <h2 className="lg:text-[35px] text-[28px] text-[#3F4045]">
+          <h2 className="lg:text-[35px] text-[26px] text-[#3F4045]">
             Vibe With Oso, Every Thursday !
           </h2>
           <p className="text-[#3F4045] lg:text-base text-[14px] leading-[24px]">
