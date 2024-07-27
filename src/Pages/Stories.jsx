@@ -25,33 +25,36 @@ const Stories = () => {
       </div>
 
       <div className="py-20 md:px-[70px] px-6">
-        <div className="border flex justify-between items-center text-[#9DA0AD] border-[#D2D5E0] mx-auto w-[218px] p-2 rounded-[99px]">
-          <button
-            onClick={() => setType("pictures")}
-            className={`${
-              type == "pictures" && "bg-[#FAB939] text-[#3F4045] rounded-[99px]"
-            } w-[89px] h-[40px]  `}
-          >
-            Pictures
-          </button>
-          <button
-            onClick={() => setType("videos")}
-            className={`${
-              type == "videos" && "bg-[#FAB939] text-[#3F4045] rounded-[99px]"
-            } w-[89px] h-[40px]  `}
-          >
-            Videos
-          </button>
+        <div className="max-w-[1352px] mx-auto">
+          <div className="border flex justify-between items-center text-[#9DA0AD] border-[#D2D5E0] mx-auto w-[218px] p-2 rounded-[99px]">
+            <button
+              onClick={() => setType("pictures")}
+              className={`${
+                type == "pictures" &&
+                "bg-[#FAB939] text-[#3F4045] rounded-[99px]"
+              } w-[89px] h-[40px]  `}
+            >
+              Pictures
+            </button>
+            <button
+              onClick={() => setType("videos")}
+              className={`${
+                type == "videos" && "bg-[#FAB939] text-[#3F4045] rounded-[99px]"
+              } w-[89px] h-[40px]  `}
+            >
+              Videos
+            </button>
+          </div>
+          <h2 className="text-[#3F4045] text-[28px] md:text-[36px] text-center pt-10">
+            Food, Drinks and Pure Vibes
+          </h2>
+
+          {/* PICTURES */}
+          {type == "pictures" && <Pictures />}
+
+          {/* VIDEOS    */}
+          {type == "videos" && <Videos />}
         </div>
-        <h2 className="text-[#3F4045] text-[28px] md:text-[36px] text-center pt-10">
-          Food, Drinks and Pure Vibes
-        </h2>
-
-        {/* PICTURES */}
-        {type == "pictures" && <Pictures />}
-
-        {/* VIDEOS    */}
-        {type == "videos" && <Videos />}
       </div>
     </>
   );

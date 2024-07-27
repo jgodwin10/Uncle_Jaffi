@@ -20,9 +20,10 @@ const Shisha = () => {
   //   ];
 
   return (
-    <div className="md:px-[70px] space-y-[48px] py-20 px-6  ">
-      <div className="flex items-center gap-[21px] flex-wrap">
-        {/* {tabs?.map((item, index) => {
+    <div className="md:px-[70px]  py-20 px-6  ">
+      <div className="space-y-[48px] max-w-[1352px] mx-auto">
+        <div className="flex items-center gap-[21px] flex-wrap">
+          {/* {tabs?.map((item, index) => {
           return (
             <button
               onClick={() => setOpen(item)}
@@ -35,12 +36,13 @@ const Shisha = () => {
             </button>
           );
         })} */}
-      </div>
-      <div className="grid gap-[32px] sm:grid-cols-2 lg:grid-cols-3">
-        <Item />
-        <Item />
-        <Item />
-        <Item />
+        </div>
+        <div className="grid gap-[32px] sm:grid-cols-2 lg:grid-cols-3">
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+        </div>
       </div>
     </div>
   );

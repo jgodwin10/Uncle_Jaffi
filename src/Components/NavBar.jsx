@@ -30,10 +30,10 @@ const NavBar = ({ clas }) => {
           nav ? "navbar fixed" : "absolute"
         } duration-300 ${clas} left-0 z-[9999999]   top-0`}
       >
-        <div className="md:pr-[70px] h-[100px] md:h-[128px] flex items-center justify-between md:pl-6 pr-6">
+        <div className="md:pr-[70px] max-w-[1472px] mx-auto h-[100px] md:h-[128px] flex items-center justify-between md:pl-6 pr-6">
           <img className="md:size-[180px] size-[120px]" src={Logo} alt="" />
           <div
-            className={`items-center hidden lg:flex xl:text-base text-[14px] uppercase nav gap-4 xl:gap-8 text-[${color}] josefin`}
+            className={`items-center hidden lg:flex xl:text-base text-[12px] uppercase nav gap-4 xl:gap-8 text-[${color}] josefin`}
           >
             <NavLink to={"/home"}>Home</NavLink>
             <NavLink to={"/about"}>About</NavLink>

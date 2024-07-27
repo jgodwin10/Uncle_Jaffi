@@ -3,8 +3,8 @@ import Logo from "../Images/Logos.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1E1E1E] md:px-[70px] px-6">
-      <div className=" text-white gap-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  pt-10 md:pt-20 pb-16">
+    <div className="bg-[#1E1E1E] lg:px-[70px] px-6">
+      <div className=" text-white max-w-[1352px] mx-auto gap-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  pt-10 md:pt-20 pb-16">
         <div className="space-y-[39px] md:pt-10">
           <h2 className="text-[22px]">Open Hours</h2>
           <div className="text-white font-light space-y-[12px]">
@@ -22,19 +22,19 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex lg:items-end pt-12 flex-col">
-          <div className="xl:w-[80%] space-y-[21px]">
+          <div className="lg:w-full xl:w-[80%] space-y-[21px]">
             <h2 className="text-[22px]">Subscribe to Our Newsletter</h2>
             <p className="text-[14px] font-light">
               Receive weekly highlights and upcoming events directly to your
               email.
             </p>
-            <div className="flex items-center border pl-6 p-2 border-[#9DA0AD] rounded-[99px]">
+            <div className="flex items-center w-full border pl-6 p-2 border-[#9DA0AD] rounded-[99px]">
               <input
-                className="bg-transparent text-[#9DA0AD] flex-1 outline-none pr-2"
+                className="bg-transparent text-[#9DA0AD] pr-3 w-[78%] xl:flex-1 outline-none"
                 type="email"
                 placeholder="Type in your email"
               />
-              <button className=" text-[14px] bg-[#FAB939] text-[#26262A] rounded-[99px] h-[34px] w-[92px]">
+              <button className=" text-[14px] bg-[#FAB939]  text-[#26262A] rounded-[99px] h-[34px] w-[92px]">
                 Submit
               </button>
             </div>
