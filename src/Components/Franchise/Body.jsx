@@ -45,7 +45,7 @@ const Body = () => {
           <h2 className="text-[#26262A] text-center md:text-[36px] text-[28px]">
             Benefits Of Owning a Franchise With Us
           </h2>
-          <div className="grid lg:grid-cols-3 gap-8 lg:gap-[22px] md:grid-cols-2">
+          <div className="grid xl:grid-cols-3 gap-x-8 gap-y-14 xl:gap-[22px] md:grid-cols-2">
             {Items.map((item, index) => {
               return (
                 <div className="space-y-[26px]">

@@ -37,7 +37,7 @@ const Food = () => {
             );
           })}
         </div>
-        <div className="grid gap-[32px] sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-[32px] sm:grid-cols-2 xl:grid-cols-3">
           <Item />
           <Item />
           <Item />
